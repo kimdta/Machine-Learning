@@ -7,7 +7,7 @@ This can be a continuous space such as Y = R (or $`Y = R^n`$) which makes a regr
 
 Assume we have a dataset of pairs (x,y) ∈ X x Y
 where x is the input and y the expected correct output (label or target)
-We can use the data as a training data set $`D =(x_i, y_i)`$,  $`i \in 1,...,n `$􏰁 to learn the relationship between inputs and targets
+We can use the data as a training data set $`D =(x_i, y_i)`$,  $`i \in {1,...,n}`$to learn the relationship between inputs and targets
 
 ## Goal of Learning: Loss and Risk
 For (x,y) ∈ (X,Y) let $`\hat{y} = h(x)`$:
