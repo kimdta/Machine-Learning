@@ -7,13 +7,13 @@ This can be a continuous space such as Y = R (or $`Y = R^n`$) which makes a regr
 
 Assume we have a dataset of pairs (x,y) ∈ X x Y
 where x is the input and y the expected correct output (label or target)
-We can use the data as a training data set $`D =(x_i, y_i)`$,  $`i \in {1,...,n}`$􏰁 to learn the relationship between inputs and targets
+We can use the data as a training data set $`D =(x_i, y_i)`$,  $`i \in 1,...,n `$􏰁 to learn the relationship between inputs and targets
 
 ## Goal of Learning: Loss and Risk
-For (x,y) ∈ (X,Y) let $\hat{y} = h(x)$:
+For (x,y) ∈ (X,Y) let $`\hat{y} = h(x)`$:
 y is the correct label for x (target)
-$\hat{y}$ is the output of the model h (prediction)
+$`\hat{y}`$ is the output of the model h (prediction)
 What if they are different?
 
-Loss function: L : Y × Y → R0+ is more than just the error: it measures the “cost” or “severity” of predicting yˆ = h(x) instead of y.
+Loss function: L : Y × Y → $`R_{0+}`$ is more than just the error: it measures the “cost” or “severity” of predicting $`\hat{y} = h(x)`$ instead of y.
 We usually assume $`L(\hat{y},y)= 0`$ if $`\hat{y} = y`$, for all $`y \in Y$.
