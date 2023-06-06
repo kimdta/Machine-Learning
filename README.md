@@ -17,3 +17,7 @@ What if they are different?
 
 Loss function: L : Y × Y → $`R_{0+}`$ is more than just the error: it measures the “cost” or “severity” of predicting $`\hat{y} = h(x)`$ instead of y.
 We usually assume $`L(\hat{y},y)= 0`$ if $`\hat{y} = y`$, for all $`y \in Y$.
+
+The expected loss is called Risk:
+
+$R(h) = E[L(h(x),y)] = \integer_{X x Y} L(h(x),y). P(x,y)$
