@@ -25,4 +25,4 @@ $R(h) = E[L(h(x),y)] = \int_{X x Y} L(h(x),y). P(x,y)$
 The goal of supervised learning can be defined as inferring (finding, building)an hypothesis h with minimal risk.
 However the distribution P is unknown. In practice we can only compute the empirical risk:
 
-$\hat{R}(h) = \sum_{i=1}^{n}$ $L(h(x_i),y_i)$
+$\hat{R}(h) = \sum_{i=1}^n L(h(x_i),y_i)$
