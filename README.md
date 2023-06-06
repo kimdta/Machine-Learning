@@ -18,6 +18,10 @@ What if they are different?
 Loss function: L : Y × Y → $`R_{0+}`$ is more than just the error: it measures the “cost” or “severity” of predicting $`\hat{y} = h(x)`$ instead of y.
 We usually assume $`L(\hat{y},y)= 0`$ if $`\hat{y} = y`$, for all $`y \in Y$.
 
-The expected loss is called Risk:
+The expected loss is called Risk (expected Loss):
 
-$R(h) = E[L(h(x),y)] = \integer_{X x Y} L(h(x),y). P(x,y)$
+$R(h) = E[L(h(x),y)] = \int_{X x Y} L(h(x),y). P(x,y)$
+
+The goal of supervised learning can be defined as inferring (finding, building)an hypothesis h with minimal risk.
+However the distribution P is unknown. In practice we can only compute the empirical risk:
+$\hat{R}(h) = \sum_{i=1}^{n} L(h(x_i),y_i)$
