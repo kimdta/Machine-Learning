@@ -46,7 +46,8 @@ h(x)=
 \end{cases}
 $$
 
-$f(x) = \langle w,x \rangle + b$ \\
+$f(x) = \langle w,x \rangle + b$ 
+
 $h(x) = sign(f(x))$
 
 The separating hyperplane is given by $H_0 = {x\in X | f(x)>0}$. The classifier *h* predicts x to be an apple in the half-space ${x \in X | f(x)<0}.
