@@ -54,7 +54,7 @@ The separating hyperplane is given by $H_0 = {x\in X | f(x)>0}$. The classifier 
 The vector $w$ determines the orientation (slope) of the hyperplane, and the offset b adjusts its distance from the origin (intercept).
 
 ### Linear Separability
-A dataset $D= ((x_1,y_1),...,(x_n,y_n) is linearly separable if there exists $f(x)=\langle w,x \rangle +b such that
+A dataset $D= ((x_1,y_1),...,(x_n,y_n)$ is linearly separable if there exists $f(x)=\langle w,x \rangle +b such that
 * f(x) >0 whenever y = +1
 * f(x) <0 whenever y = -1
 We can simpify this rule to $y_i . f(x_i) >0$
