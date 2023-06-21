@@ -41,10 +41,11 @@ Using a linear model here yeilds *linear separation*: the decision boundary betw
 $$
 h(x)=
 \begin{cases}
-apple & \quad \text{if $f(x)>0$}\\ 
-0 & \quad \text{if} $f(x)<0$
+\text{apple} & \quad \text{if} $f(x)>0$\\ 
+\text{organge} & \quad \text{if} $f(x)<0$
 \end{cases}
 $$
+
 $f(x) = \langle(w,x)\rangle + b$
 $h(x) = sign(f(x))$
 
