@@ -26,3 +26,19 @@ The goal of supervised learning can be defined as inferring (finding, building)a
 However the distribution P is unknown. In practice we can only compute the empirical risk:
 
 $\hat{R}(h) = \sum_{i=1}^{n}L(h(x_i),y_i)$
+
+# 2. Linear Classification and Perceptron
+
+## Linear Classification
+Given an input, decide to which of two classes it belongs
+Example: X are fruits, Y are the labels {apple, organge}. Learn hypothesis *h*: X -> Y that classifies as correctly as possible.
+The hypothesis separates the input space into 2 regions: $h^{-1}$ (apple) and $h^{-1}(organge).
+Using a linear model here yeilds *linear separation*: the decision boundary between two regions is a hyperplane (i.e a line in n dimensions)
+
+* Let the input space X be a vector space with inner product. Think of $X=R^p$ with standard inner product:
+* We consider hypothesis (i.e models) of the form
+
+$h(x) = \begin{cases} apple, & \mbox{if } f(x)\mbox{ >0} \\ organge, & \mbox{if } f(x)\mbox{ <0} \end{cases}$
+$f(x) = \langle(w,x)\rangle + b$
+$h(x) = sign(f(x))$
+
