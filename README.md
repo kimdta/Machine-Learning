@@ -38,10 +38,13 @@ Using a linear model here yeilds *linear separation*: the decision boundary betw
 * Let the input space X be a vector space with inner product. Think of $X=R^p$ with standard inner product:
 * We consider hypothesis (i.e models) of the form
 
-\begin{equation}
-apple   if f(x)>0,
-organge if f(x)<0
-\end{equation}.
+$$
+h(x)=
+\begin{cases}
+apple & \quad \text{if $f(x)>0$}\\ 
+0 & \quad \text{if} $f(x)<0$
+\end{cases}
+$$
 $f(x) = \langle(w,x)\rangle + b$
 $h(x) = sign(f(x))$
 
