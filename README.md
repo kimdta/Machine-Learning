@@ -41,8 +41,8 @@ Using a linear model here yeilds *linear separation*: the decision boundary betw
 $$
 h(x)=
 \begin{cases}
-\text{apple} & \quad \text{if} $f(x)>0$\\ 
-\text{organge} & \quad \text{if} $f(x)<0$
+\text{apple} & \quad \text{if} f(x)>0\\ 
+\text{organge} & \quad \text{if} f(x)<0
 \end{cases}
 $$
 
