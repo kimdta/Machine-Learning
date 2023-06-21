@@ -44,8 +44,20 @@ h(x)=
 \text{apple} & \quad \text{if} f(x)>0\\ 
 \text{organge} & \quad \text{if} f(x)<0
 \end{cases}
-$$
-
-$f(x) = \langle(w,x)\rangle + b$
+$$\\
+$f(x) = \langle w,x \rangle + b$ \\
 $h(x) = sign(f(x))$
+
+The separating hyperplane is given by $H_0 = {x\in X | f(x)>0}$. The classifier *h* predicts x to be an apple in the half-space ${x \in X | f(x)<0}.
+The vector $w$ determines the orientation (slope) of the hyperplane, and the offset b adjusts its distance from the origin (intercept).
+
+### Linear Separability
+A dataset $D= ((x_1,y_1),...,(x_n,y_n) is linearly separable if there exists $f(x)=\langle w,x \rangle +b such that
+* f(x) >0 whenever y = +1
+* f(x) <0 whenever y = -1
+We can simpify this rule to $y_i . f(x_i) >0$
+
+### Margin
+$y_i . f(x_i) = y_i . (\langle w,x_i \rangle +b)$ is called margin of point $(x_i, y_i)$ \\
+If the margin is positive then the example ($(x_i, y_i)$ is classified correctly. Negative margin indicates wrong classification.
 
